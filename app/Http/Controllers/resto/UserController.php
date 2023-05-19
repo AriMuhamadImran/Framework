@@ -112,4 +112,4 @@ class UserController extends Controller
             return redirect()->back()->withInput()->withErrors(['msg' => $e->getMessage()]);
         }
         return redirect('/resto/user')->with('success', 'Berhasil hapus data');
-    }
+    }}
